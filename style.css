@@ -1,0 +1,58 @@
+h1{
+    color: bisque
+}
+
+body{
+    margin: 0px;
+    background-color: red;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: white;
+}
+.header{
+    background-color: rgb(50, 14, 209);
+    display: flex;
+    justify-content: space-between;
+}
+
+a:link{
+    color:yellow;   
+}
+
+a:visited{
+    color:blue;   
+}
+
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 25px;
+    
+}
+.origami:hover{
+    transform: scale(1.2);
+}
+.origami{
+    border-radius: 20px;
+    background-color: white;
+    padding: 30px;
+    margin: 25px;
+    width: 310px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
